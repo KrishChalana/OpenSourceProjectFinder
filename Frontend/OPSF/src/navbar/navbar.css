@@ -1,0 +1,19 @@
+.sour-gummy-font {
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .black-bars{
+    width: 17vw;
+    height: 6vh;
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s;
+
+  }
+
