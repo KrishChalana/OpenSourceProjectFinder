@@ -1,0 +1,22 @@
+{
+  "name": "opsf",
+  "version": "1.0.0",
+  "description": "OpenSourceProject Finder Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrishChalana/OpenSourceProjectFinder.git"
+  },
+  "keywords": [
+    "OpenSourceProjectFinder"
+  ],
+  "author": "Krish Chalana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KrishChalana/OpenSourceProjectFinder/issues"
+  },
+  "homepage": "https://github.com/KrishChalana/OpenSourceProjectFinder#readme"
+}
