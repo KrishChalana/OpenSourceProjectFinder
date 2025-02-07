@@ -1,6 +1,4 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import Searchbar from "./SearchBar/searchbar";
 import "./App.css";
 import Navbar from "./navbar/navbar";
 function App() {
@@ -8,26 +6,23 @@ function App() {
     <>
       <div
         id="main-body"
-        className="w-[100vw] h-[100vh] flex justify-center items-center gap-10"
+        className="w-[100vw] h-[100vh]"
       >
+        <div className=" flex flex-col justify-end items-center h-full gap-20">
         <Navbar />
+        <Searchbar />
+        <div className=" flex justify-between w-full">
 
-        <div class="input-container">
-          <input
-            class="input"
-            name="text"
-            type="text"
-            placeholder="Search the internet..."
-          />
+<img src="doodle1.png" className="rotate-13" alt="" />
+<img src="wizard.png" className="-rotate-13" alt="" />
+</div>
+
         </div>
-        <div class="button input">
-          <button name="checkbox" type="button"></button>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+
+      
+
       </div>
+  
     </>
   );
 }
