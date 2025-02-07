@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/KrishChalana/OpenSourceProjectFinder/issues"
   },
-  "homepage": "https://github.com/KrishChalana/OpenSourceProjectFinder#readme"
+  "homepage": "https://github.com/KrishChalana/OpenSourceProjectFinder#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
 }
